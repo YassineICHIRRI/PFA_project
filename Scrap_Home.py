@@ -35,7 +35,7 @@ for row in rows:
         Deadline.append(deadline)
         i+=1
 
-file_name="CFP.csv"
+file_name="CFP_Home.csv"
 
 with open(file_name,"w",encoding='utf-8') as f :
     f.write=csv.writer(f)
